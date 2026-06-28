@@ -1,167 +1,515 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Hlanganisa Engineering Portfolio</title>
 
-<style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-body{
-font-family: Arial;
-margin:0;
-background:#0f172a;
-color:white;
-}
+    <title>Hlanganisa Mpomposhe | Mechatronic Engineer</title>
 
-header{
-background:#020617;
-padding:20px;
-text-align:center;
-}
+    <meta name="description"
+        content="Engineering portfolio of Hlanganisa Mpomposhe, showcasing robotics, automation, embedded systems, CAD design, instrumentation and software engineering projects.">
 
-nav{
-display:flex;
-justify-content:center;
-gap:30px;
-background:#1e293b;
-padding:15px;
-}
+    <link rel="stylesheet" href="style.css">
 
-nav a{
-color:white;
-text-decoration:none;
-font-weight:bold;
-}
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
-section{
-padding:40px;
-max-width:1100px;
-margin:auto;
-}
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-.hero{
-text-align:center;
-padding:80px 20px;
-}
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
-.projects{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-}
+    <!-- Font Awesome -->
 
-.card{
-background:#1e293b;
-padding:20px;
-border-radius:10px;
-transition:0.3s;
-}
-
-.card:hover{
-transform:translateY(-5px);
-background:#334155;
-}
-
-footer{
-text-align:center;
-padding:30px;
-background:#020617;
-margin-top:40px;
-}
-
-</style>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 
 <body>
 
-<header>
-<h1>Hlanganisa Mpomposhe</h1>
-<p>Mechatronic Engineering Portfolio</p>
-</header>
+    <!--================ NAVIGATION ================-->
 
-<nav>
-<a href="#projects">Projects</a>
-<a href="#cad">CAD Work</a>
-<a href="#electronics">Electronics</a>
-<a href="#automation">Automation</a>
-<a href="#contact">Contact</a>
-</nav>
+    <header>
 
-<section class="hero">
-<h2>Engineering Portfolio</h2>
-<p>
-Mechatronic engineering student focused on robotics,
-automation systems, embedded programming, and mechanical design.
-This portfolio showcases engineering projects, CAD work,
-and technical development experience.
-</p>
-</section>
+        <nav class="navbar">
 
-<section id="projects">
-<h2>Engineering Projects</h2>
+            <div class="logo">
 
-<div class="projects">
+                HM
 
-<div class="card">
-<h3>Automation Systems</h3>
-<p>Industrial automation projects, sensor integration,
-and control system development.</p>
-</div>
+            </div>
 
-<div class="card">
-<h3>Embedded Systems</h3>
-<p>Microcontroller programming, hardware integration
-and control applications.</p>
-</div>
+            <ul class="nav-links">
 
-<div class="card">
-<h3>PLC & Control Systems</h3>
-<p>Industrial PLC programming, automation logic
-and machine control.</p>
-</div>
+                <li><a href="#home">Home</a></li>
 
-<div class="card">
-<h3>Robotics</h3>
-<p>Robot manipulation, kinematics, and intelligent
-control algorithms.</p>
-</div>
+                <li><a href="#about">About</a></li>
 
-</div>
-</section>
+                <li><a href="#skills">Skills</a></li>
 
-<section id="cad">
-<h2>CAD Mechanical Design</h2>
-<p>
-Mechanical modelling, assembly design and manufacturing
-drawings created using Autodesk Inventor.
-</p>
-</section>
+                <li><a href="#projects">Projects</a></li>
 
-<section id="electronics">
-<h2>Electronics & Control Panels</h2>
-<p>
-Circuit design, panel wiring, instrumentation
-and electrical system integration.
-</p>
-</section>
+                <li><a href="#education">Education</a></li>
 
-<section id="automation">
-<h2>Automation Engineering</h2>
-<p>
-Industrial automation, sensor systems,
-embedded controllers and production line systems.
-</p>
-</section>
+                <li><a href="#contact">Contact</a></li>
 
-<section id="contact">
-<h2>Contact</h2>
-<p>Email: hmpomposhe95@gmail.com</p>
-<p>LinkedIn: linkedin.com/in/hlanganisa-mpomposhe</p>
-</section>
+            </ul>
 
-<footer>
-<p>© 2026 Hlanganisa Mpomposhe | Engineering Portfolio</p>
-</footer>
+            <div class="menu-btn">
+
+                <i class="fas fa-bars"></i>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!--================ HERO ================-->
+
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <h3>Hello, I'm</h3>
+
+            <h1>Hlanganisa Mpomposhe</h1>
+
+            <h2>Mechatronic Engineering Student</h2>
+
+            <p>
+
+                I develop engineering solutions by integrating
+                mechanical design, electronics, embedded software,
+                robotics and control systems.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn">
+
+                    View Projects
+
+                </a>
+
+                <a href="assets/resume.pdf" class="btn-outline" target="_blank">
+
+                    Download CV
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="assets/profile.jpg"
+                alt="Hlanganisa Mpomposhe">
+
+        </div>
+
+    </section>
+
+    <!--================ ABOUT ================-->
+
+    <section id="about" class="about">
+
+        <h2 class="section-title">
+
+            About Me
+
+        </h2>
+
+        <div class="about-container">
+
+            <div class="about-text">
+
+                <p>
+
+                    I am a BEng Mechatronic Engineering student at
+                    Nelson Mandela University with a strong interest
+                    in robotics, automation, intelligent control systems,
+                    embedded programming and mechanical design.
+
+                </p>
+
+                <p>
+
+                    Throughout my academic journey I have completed
+                    projects involving robot kinematics, evolutionary
+                    algorithms, Java software development,
+                    instrumentation, CAD modelling and industrial
+                    automation.
+
+                </p>
+
+            </div>
+
+            <div class="about-info">
+
+                <div>
+
+                    <strong>Degree</strong>
+
+                    <span>BEng Mechatronic Engineering</span>
+
+                </div>
+
+                <div>
+
+                    <strong>University</strong>
+
+                    <span>Nelson Mandela University</span>
+
+                </div>
+
+                <div>
+
+                    <strong>Location</strong>
+
+                    <span>South Africa</span>
+
+                </div>
+
+                <div>
+
+                    <strong>Status</strong>
+
+                    <span>Final Year Student</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ SKILLS ================-->
+
+    <section class="skills" id="skills">
+
+        <h2 class="section-title">
+
+            Technical Skills
+
+        </h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+
+                <i class="fas fa-code"></i>
+
+                <h3>Programming</h3>
+
+                <p>
+
+                    Java<br>
+                    Python<br>
+                    MATLAB<br>
+                    Arduino
+
+                </p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fas fa-microchip"></i>
+
+                <h3>Embedded Systems</h3>
+
+                <p>
+
+                    Microcontrollers<br>
+                    Sensors<br>
+                    Electronics<br>
+                    Embedded Programming
+
+                </p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fas fa-robot"></i>
+
+                <h3>Robotics</h3>
+
+                <p>
+
+                    Forward Kinematics<br>
+                    Inverse Kinematics<br>
+                    Jacobians<br>
+                    Manipulators
+
+                </p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fas fa-cogs"></i>
+
+                <h3>Automation</h3>
+
+                <p>
+
+                    PLC Programming<br>
+                    Instrumentation<br>
+                    Industrial Automation<br>
+                    Control Systems
+
+                </p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fas fa-drafting-compass"></i>
+
+                <h3>CAD Design</h3>
+
+                <p>
+
+                    Autodesk Inventor<br>
+                    Mechanical Assemblies<br>
+                    Engineering Drawings
+
+                </p>
+
+            </div>
+
+            <div class="skill-card">
+
+                <i class="fas fa-laptop-code"></i>
+
+                <h3>Software Development</h3>
+
+                <p>
+
+                    Java Applications<br>
+                    Data Structures<br>
+                    Algorithms<br>
+                    Git & GitHub
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ PROJECTS ================-->
+
+    <section class="projects" id="projects">
+
+        <h2 class="section-title">
+
+            Featured Projects
+
+        </h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+
+                <img src="assets/images/robotics.jpg">
+
+                <div class="project-content">
+
+                    <h3>Robot Kinematics</h3>
+
+                    <p>
+
+                        Forward and inverse kinematics,
+                        Jacobian analysis and manipulator control.
+
+                    </p>
+
+                    <a href="projects/robotics.html">
+
+                        Read More
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="project-card">
+
+                <img src="assets/images/automation.jpg">
+
+                <div class="project-content">
+
+                    <h3>Automation Systems</h3>
+
+                    <p>
+
+                        PLC programming, sensors,
+                        industrial control and automation.
+
+                    </p>
+
+                    <a href="projects/automation.html">
+
+                        Read More
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="project-card">
+
+                <img src="assets/images/software.jpg">
+
+                <div class="project-content">
+
+                    <h3>Java Applications</h3>
+
+                    <p>
+
+                        Data structures, optimisation algorithms
+                        and engineering software.
+
+                    </p>
+
+                    <a href="projects/java.html">
+
+                        Read More
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ EDUCATION ================-->
+
+    <section class="education" id="education">
+
+        <h2 class="section-title">
+
+            Education
+
+        </h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <h3>BEng Mechatronic Engineering</h3>
+
+                <span>2022 - Present</span>
+
+                <p>
+
+                    Nelson Mandela University
+
+                </p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <h3>National Diploma</h3>
+
+                <span>South West Gauteng College</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ CONTACT ================-->
+
+    <section class="contact" id="contact">
+
+        <h2 class="section-title">
+
+            Contact
+
+        </h2>
+
+        <div class="contact-container">
+
+            <div>
+
+                <i class="fas fa-envelope"></i>
+
+                <p>
+
+                    hmpomposhe95@gmail.com
+
+                </p>
+
+            </div>
+
+            <div>
+
+                <i class="fab fa-github"></i>
+
+                <p>
+
+                    github.com/hmpomposhe95-lab
+
+                </p>
+
+            </div>
+
+            <div>
+
+                <i class="fab fa-linkedin"></i>
+
+                <p>
+
+                    linkedin.com/in/hlanganisa-mpomposhe
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ FOOTER ================-->
+
+    <footer>
+
+        <h3>Hlanganisa Mpomposhe</h3>
+
+        <p>
+
+            Mechatronic Engineering Portfolio
+
+        </p>
+
+        <p>
+
+            © 2026 All Rights Reserved
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
