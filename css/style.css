@@ -6,15 +6,13 @@
 *{
 
     margin: 0;
-    /* Removes the browser's default outside spacing */
 
     padding: 0;
-    /* Removes the browser's default inside spacing */
 
     box-sizing: border-box;
-    /* Includes padding and borders inside the element's width */
 
 }
+
 /* ========================================================= */
 /* ROOT VARIABLES                                            */
 /* Stores colours and fonts for the entire website           */
@@ -39,6 +37,7 @@
     --font-family:'Poppins', sans-serif;
 
 }
+
 /* ========================================================= */
 /* BODY                                                      */
 /* Styles the entire webpage                                 */
@@ -47,18 +46,15 @@
 body{
 
     background-color:var(--background-color);
-    /* Dark navy background */
 
     color:var(--text-color);
-    /* White text */
 
     font-family:var(--font-family);
-    /* Uses the Google Font */
 
     line-height:1.6;
-    /* Adds comfortable spacing between lines */
 
 }
+
 /* ========================================================= */
 /* IMAGES                                                    */
 /* Prevents images overflowing their containers              */
@@ -67,12 +63,11 @@ body{
 img{
 
     max-width:100%;
-    /* Prevents large images overflowing */
 
     display:block;
-    /* Removes small gaps below images */
 
 }
+
 /* ========================================================= */
 /* LINKS                                                     */
 /* Removes default browser styling                           */
@@ -81,9 +76,132 @@ img{
 a{
 
     text-decoration:none;
-    /* Removes underline */
 
     color:inherit;
-    /* Uses the surrounding text colour */
+
+}
+
+/* ========================================================= */
+/* LISTS                                                     */
+/* Removes bullet points                                     */
+/* ========================================================= */
+
+ul{
+
+    list-style:none;
+
+}
+
+/* ========================================================= */
+/* HEADER                                                    */
+/* Styles the header that contains the navigation bar        */
+/* ========================================================= */
+
+header{
+
+    background-color:var(--secondary-background);
+
+    width:100%;
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    z-index:1000;
+
+    border-bottom:1px solid var(--border-color);
+
+}
+
+/* ========================================================= */
+/* NAVIGATION BAR                                            */
+/* Aligns the logo and menu links                            */
+/* ========================================================= */
+
+nav{
+
+    display: flex;
+    /* Places child elements in a horizontal row */
+
+    justify-content: space-between;
+    /* Pushes the logo left and the menu right */
+
+    align-items: center;
+    /* Vertically centres everything */
+
+    max-width: 1200px;
+    /* Prevents the navigation from becoming too wide */
+
+    margin: 0 auto;
+    /* Centres the navigation within the page */
+
+    padding: 20px 40px;
+    /* Adds spacing inside the navigation */
+
+}
+
+/* ========================================================= */
+/* LOGO                                                      */
+/* Styles the portfolio logo                                */
+/* ========================================================= */
+
+.logo{
+
+    font-size: 1.5rem;
+    /* Makes the logo larger */
+
+    font-weight: 700;
+    /* Makes it bold */
+
+    color: var(--primary-color);
+    /* Uses the theme's primary colour */
+
+    letter-spacing: 2px;
+    /* Adds spacing between letters */
+
+}
+/* ========================================================= */
+/* NAVIGATION MENU                                           */
+/* Styles the list of navigation links                       */
+/* ========================================================= */
+
+nav ul{
+
+    display: flex;
+    /* Displays all menu items in one row */
+
+    gap: 30px;
+    /* Creates equal spacing between each menu item */
+
+}
+
+/* ========================================================= */
+/* NAVIGATION LINKS                                          */
+/* Styles each navigation link                              */
+/* ========================================================= */
+
+nav ul li a{
+
+    color: var(--text-color);
+    /* White text */
+
+    font-weight: 500;
+    /* Medium font weight */
+
+    transition: color 0.3s ease;
+    /* Smooth colour change when hovering */
+
+}
+
+/* ========================================================= */
+/* NAVIGATION LINK HOVER                                     */
+/* Changes the link colour when the mouse hovers over it     */
+/* ========================================================= */
+
+nav ul li a:hover{
+
+    color: var(--primary-color);
 
 }
