@@ -1,1 +1,89 @@
+/* ========================================================= */
+/* CSS RESET                                                 */
+/* Removes the browser's default spacing and sizing          */
+/* ========================================================= */
 
+*{
+
+    margin: 0;
+    /* Removes the browser's default outside spacing */
+
+    padding: 0;
+    /* Removes the browser's default inside spacing */
+
+    box-sizing: border-box;
+    /* Includes padding and borders inside the element's width */
+
+}
+/* ========================================================= */
+/* ROOT VARIABLES                                            */
+/* Stores colours and fonts for the entire website           */
+/* ========================================================= */
+
+:root{
+
+    --background-color:#0F172A;
+
+    --secondary-background:#1E293B;
+
+    --primary-color:#3B82F6;
+
+    --text-color:#F8FAFC;
+
+    --secondary-text:#94A3B8;
+
+    --border-color:#334155;
+
+    --hover-color:#2563EB;
+
+    --font-family:'Poppins', sans-serif;
+
+}
+/* ========================================================= */
+/* BODY                                                      */
+/* Styles the entire webpage                                 */
+/* ========================================================= */
+
+body{
+
+    background-color:var(--background-color);
+    /* Dark navy background */
+
+    color:var(--text-color);
+    /* White text */
+
+    font-family:var(--font-family);
+    /* Uses the Google Font */
+
+    line-height:1.6;
+    /* Adds comfortable spacing between lines */
+
+}
+/* ========================================================= */
+/* IMAGES                                                    */
+/* Prevents images overflowing their containers              */
+/* ========================================================= */
+
+img{
+
+    max-width:100%;
+    /* Prevents large images overflowing */
+
+    display:block;
+    /* Removes small gaps below images */
+
+}
+/* ========================================================= */
+/* LINKS                                                     */
+/* Removes default browser styling                           */
+/* ========================================================= */
+
+a{
+
+    text-decoration:none;
+    /* Removes underline */
+
+    color:inherit;
+    /* Uses the surrounding text colour */
+
+}
