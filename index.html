@@ -1,514 +1,133 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- Tells the browser this document uses HTML5 -->
 
-<head>
+<html lang="en"> <!-- Root element of the webpage. lang="en" improves accessibility and SEO. -->
+
+<head> <!-- Contains information about the webpage that is not displayed -->
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Allows the webpage to display almost every character correctly -->
 
-    <title>Hlanganisa Mpomposhe | Mechatronic Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Makes the website responsive on phones, tablets and desktops -->
+
+    <title>Hlanganisa Mpomposhe | Mechatronics Engineer</title>
+    <!-- The text shown in the browser tab -->
 
     <meta name="description"
-        content="Engineering portfolio of Hlanganisa Mpomposhe, showcasing robotics, automation, embedded systems, CAD design, instrumentation and software engineering projects.">
+        content="Portfolio of Hlanganisa Mpomposhe, BEng Mechatronics Engineer specialising in robotics, embedded systems and industrial automation.">
+    <!-- Description used by search engines -->
 
-    <link rel="stylesheet" href="style.css">
+    <!-- Loads our stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
 
-    <!-- Google Fonts -->
+    <!-- Imports the Poppins font from Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
+    <!-- Improves loading performance for Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <!-- Loads the Poppins font family -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
-    <!-- Font Awesome -->
-
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
 </head>
 
-<body>
+<body> <!-- Everything inside the body is visible on the webpage -->
 
-    <!--================ NAVIGATION ================-->
+    <!-- ===================================================== -->
+    <!-- HEADER -->
+    <!-- Contains the website navigation -->
+    <!-- ===================================================== -->
 
     <header>
 
-        <nav class="navbar">
+        <!-- Navigation bar -->
+        <nav>
 
+            <!-- Personal logo -->
             <div class="logo">
 
                 HM
 
             </div>
 
-            <ul class="nav-links">
+            <!-- Navigation links -->
+            <ul>
 
                 <li><a href="#home">Home</a></li>
 
                 <li><a href="#about">About</a></li>
 
-                <li><a href="#skills">Skills</a></li>
-
                 <li><a href="#projects">Projects</a></li>
 
-                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#experience">Experience</a></li>
 
                 <li><a href="#contact">Contact</a></li>
 
             </ul>
 
-            <div class="menu-btn">
-
-                <i class="fas fa-bars"></i>
-
-            </div>
-
         </nav>
 
     </header>
 
-    <!--================ HERO ================-->
+    <!-- ===================================================== -->
+    <!-- MAIN -->
+    <!-- Holds the main content of the webpage -->
+    <!-- ===================================================== -->
 
-    <section class="hero" id="home">
+    <main>
 
-        <div class="hero-text">
+        <!-- Hero section -->
+        <section id="home">
 
-            <h3>Hello, I'm</h3>
+        </section>
 
-            <h1>Hlanganisa Mpomposhe</h1>
+        <!-- About section -->
+        <section id="about">
 
-            <h2>Mechatronic Engineering Student</h2>
+        </section>
 
-            <p>
+        <!-- Projects section -->
+        <section id="projects">
 
-                I develop engineering solutions by integrating
-                mechanical design, electronics, embedded software,
-                robotics and control systems.
+        </section>
 
-            </p>
+        <!-- Technical skills -->
+        <section id="skills">
 
-            <div class="hero-buttons">
+        </section>
 
-                <a href="#projects" class="btn">
+        <!-- Engineering experience -->
+        <section id="experience">
 
-                    View Projects
+        </section>
 
-                </a>
+        <!-- Contact information -->
+        <section id="contact">
 
-                <a href="assets/resume.pdf" class="btn-outline" target="_blank">
+        </section>
 
-                    Download CV
+    </main>
 
-                </a>
-
-            </div>
-
-        </div>
-
-        <div class="hero-image">
-
-            <img src="assets/profile.jpg"
-                alt="Hlanganisa Mpomposhe">
-
-        </div>
-
-    </section>
-
-    <!--================ ABOUT ================-->
-
-    <section id="about" class="about">
-
-        <h2 class="section-title">
-
-            About Me
-
-        </h2>
-
-        <div class="about-container">
-
-            <div class="about-text">
-
-                <p>
-
-                    I am a BEng Mechatronic Engineering student at
-                    Nelson Mandela University with a strong interest
-                    in robotics, automation, intelligent control systems,
-                    embedded programming and mechanical design.
-
-                </p>
-
-                <p>
-
-                    Throughout my academic journey I have completed
-                    projects involving robot kinematics, evolutionary
-                    algorithms, Java software development,
-                    instrumentation, CAD modelling and industrial
-                    automation.
-
-                </p>
-
-            </div>
-
-            <div class="about-info">
-
-                <div>
-
-                    <strong>Degree</strong>
-
-                    <span>BEng Mechatronic Engineering</span>
-
-                </div>
-
-                <div>
-
-                    <strong>University</strong>
-
-                    <span>Nelson Mandela University</span>
-
-                </div>
-
-                <div>
-
-                    <strong>Location</strong>
-
-                    <span>South Africa</span>
-
-                </div>
-
-                <div>
-
-                    <strong>Status</strong>
-
-                    <span>Final Year Student</span>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!--================ SKILLS ================-->
-
-    <section class="skills" id="skills">
-
-        <h2 class="section-title">
-
-            Technical Skills
-
-        </h2>
-
-        <div class="skills-grid">
-
-            <div class="skill-card">
-
-                <i class="fas fa-code"></i>
-
-                <h3>Programming</h3>
-
-                <p>
-
-                    Java<br>
-                    Python<br>
-                    MATLAB<br>
-                    Arduino
-
-                </p>
-
-            </div>
-
-            <div class="skill-card">
-
-                <i class="fas fa-microchip"></i>
-
-                <h3>Embedded Systems</h3>
-
-                <p>
-
-                    Microcontrollers<br>
-                    Sensors<br>
-                    Electronics<br>
-                    Embedded Programming
-
-                </p>
-
-            </div>
-
-            <div class="skill-card">
-
-                <i class="fas fa-robot"></i>
-
-                <h3>Robotics</h3>
-
-                <p>
-
-                    Forward Kinematics<br>
-                    Inverse Kinematics<br>
-                    Jacobians<br>
-                    Manipulators
-
-                </p>
-
-            </div>
-
-            <div class="skill-card">
-
-                <i class="fas fa-cogs"></i>
-
-                <h3>Automation</h3>
-
-                <p>
-
-                    PLC Programming<br>
-                    Instrumentation<br>
-                    Industrial Automation<br>
-                    Control Systems
-
-                </p>
-
-            </div>
-
-            <div class="skill-card">
-
-                <i class="fas fa-drafting-compass"></i>
-
-                <h3>CAD Design</h3>
-
-                <p>
-
-                    Autodesk Inventor<br>
-                    Mechanical Assemblies<br>
-                    Engineering Drawings
-
-                </p>
-
-            </div>
-
-            <div class="skill-card">
-
-                <i class="fas fa-laptop-code"></i>
-
-                <h3>Software Development</h3>
-
-                <p>
-
-                    Java Applications<br>
-                    Data Structures<br>
-                    Algorithms<br>
-                    Git & GitHub
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!--================ PROJECTS ================-->
-
-    <section class="projects" id="projects">
-
-        <h2 class="section-title">
-
-            Featured Projects
-
-        </h2>
-
-        <div class="project-grid">
-
-            <div class="project-card">
-
-                <img src="assets/images/robotics.jpg">
-
-                <div class="project-content">
-
-                    <h3>Robot Kinematics</h3>
-
-                    <p>
-
-                        Forward and inverse kinematics,
-                        Jacobian analysis and manipulator control.
-
-                    </p>
-
-                    <a href="projects/robotics.html">
-
-                        Read More
-
-                    </a>
-
-                </div>
-
-            </div>
-
-            <div class="project-card">
-
-                <img src="assets/images/automation.jpg">
-
-                <div class="project-content">
-
-                    <h3>Automation Systems</h3>
-
-                    <p>
-
-                        PLC programming, sensors,
-                        industrial control and automation.
-
-                    </p>
-
-                    <a href="projects/automation.html">
-
-                        Read More
-
-                    </a>
-
-                </div>
-
-            </div>
-
-            <div class="project-card">
-
-                <img src="assets/images/software.jpg">
-
-                <div class="project-content">
-
-                    <h3>Java Applications</h3>
-
-                    <p>
-
-                        Data structures, optimisation algorithms
-                        and engineering software.
-
-                    </p>
-
-                    <a href="projects/java.html">
-
-                        Read More
-
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!--================ EDUCATION ================-->
-
-    <section class="education" id="education">
-
-        <h2 class="section-title">
-
-            Education
-
-        </h2>
-
-        <div class="timeline">
-
-            <div class="timeline-item">
-
-                <h3>BEng Mechatronic Engineering</h3>
-
-                <span>2022 - Present</span>
-
-                <p>
-
-                    Nelson Mandela University
-
-                </p>
-
-            </div>
-
-            <div class="timeline-item">
-
-                <h3>National Diploma</h3>
-
-                <span>South West Gauteng College</span>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!--================ CONTACT ================-->
-
-    <section class="contact" id="contact">
-
-        <h2 class="section-title">
-
-            Contact
-
-        </h2>
-
-        <div class="contact-container">
-
-            <div>
-
-                <i class="fas fa-envelope"></i>
-
-                <p>
-
-                    hmpomposhe95@gmail.com
-
-                </p>
-
-            </div>
-
-            <div>
-
-                <i class="fab fa-github"></i>
-
-                <p>
-
-                    github.com/hmpomposhe95-lab
-
-                </p>
-
-            </div>
-
-            <div>
-
-                <i class="fab fa-linkedin"></i>
-
-                <p>
-
-                    linkedin.com/in/hlanganisa-mpomposhe
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!--================ FOOTER ================-->
+    <!-- ===================================================== -->
+    <!-- FOOTER -->
+    <!-- Appears at the bottom of every page -->
+    <!-- ===================================================== -->
 
     <footer>
 
-        <h3>Hlanganisa Mpomposhe</h3>
-
         <p>
 
-            Mechatronic Engineering Portfolio
-
-        </p>
-
-        <p>
-
-            © 2026 All Rights Reserved
+            © 2026 Hlanganisa Mpomposhe
 
         </p>
 
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Loads our JavaScript after the page has finished loading -->
+    <script src="js/script.js"></script>
 
 </body>
 
