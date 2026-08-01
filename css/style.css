@@ -538,3 +538,120 @@ section > p{
 
 }
 
+/* ========================================================= */
+/* PROJECTS SECTION                                          */
+/* Styles the Featured Projects section                      */
+/* ========================================================= */
+
+#projects{
+
+    padding: 100px 40px;
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+}
+
+/* ========================================================= */
+/* PROJECTS CONTAINER                                        */
+/* Creates a responsive grid of project cards                */
+/* ========================================================= */
+
+.projects-container{
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+
+}
+
+/* ========================================================= */
+/* PROJECT CARD                                              */
+/* Styles each individual project                            */
+/* ========================================================= */
+
+.project-card{
+
+    background-color: var(--secondary-background);
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    border: 1px solid var(--border-color);
+
+    transition: 0.3s ease;
+
+}
+.project-card:hover{
+
+    transform: translateY(-8px);
+
+    border-color: var(--primary-color);
+
+}
+
+/* ========================================================= */
+/* PROJECT IMAGES                                            */
+/* Styles the project images                                 */
+/* ========================================================= */
+
+.project-card img{
+
+    width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+
+}
+
+/* ========================================================= */
+/* PROJECT CONTENT                                           */
+/* Styles the text inside each project                       */
+/* ========================================================= */
+
+.project-content{
+
+    padding: 25px;
+
+}
+
+.project-content h3{
+
+    color: var(--primary-color);
+
+    margin-bottom: 15px;
+
+}
+.project-content p{
+
+    color: var(--secondary-text);
+
+    margin-bottom: 20px;
+
+}
+
+.project-content a{
+
+    display: inline-block;
+
+    color: var(--primary-color);
+
+    font-weight: 600;
+
+    transition: 0.3s ease;
+
+}
+
+.project-content a:hover{
+
+    color: var(--hover-color);
+
+    transform: translateX(5px);
+
+}
+
