@@ -655,3 +655,107 @@ section > p{
 
 }
 
+/* ========================================================= */
+/* SKILLS SECTION                                            */
+/* Styles the Technical Skills section                       */
+/* ========================================================= */
+
+#skills{
+
+    max-width: 1200px;
+    /* Prevents the section becoming too wide */
+
+    margin: 0 auto;
+    /* Centres the section */
+
+    padding: 100px 40px;
+    /* Creates spacing around the section */
+
+}
+
+/* ========================================================= */
+/* SKILLS CONTAINER                                          */
+/* Creates a responsive grid                                */
+/* ========================================================= */
+
+.skills-container{
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+
+}
+
+/* ========================================================= */
+/* SKILL CATEGORY                                            */
+/* Styles each skills card                                  */
+/* ========================================================= */
+
+.skill-category{
+
+    background-color: var(--secondary-background);
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    border: 1px solid var(--border-color);
+
+    transition: all 0.3s ease;
+
+}
+
+.skill-category:hover{
+
+    transform: translateY(-6px);
+
+    border-color: var(--primary-color);
+
+}
+
+.skill-category h3{
+
+    color: var(--primary-color);
+
+    margin-bottom: 20px;
+
+    font-size: 1.3rem;
+
+}
+
+.skill-category ul{
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+}
+
+.skill-category li{
+
+    background-color: var(--background-color);
+
+    padding: 10px 15px;
+
+    border-radius: 8px;
+
+    color: var(--secondary-text);
+
+    border-left: 4px solid var(--primary-color);
+
+    transition: all 0.3s ease;
+
+}
+
+.skill-category li:hover{
+
+    color: var(--text-color);
+
+    transform: translateX(5px);
+
+}
+
