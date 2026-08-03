@@ -1004,3 +1004,221 @@ section > p{
 
 }
 
+/* ========================================================= */
+/* RESPONSIVE DESIGN                                          */
+/* Makes the website adapt to different screen sizes          */
+/* ========================================================= */
+/* ========================================================= */
+/* LARGE TABLETS                                              */
+/* Screen width: 1024px or less                              */
+/* ========================================================= */
+
+@media (max-width:1024px){
+
+    .hero-container{
+
+        gap:50px;
+
+        padding:60px 30px;
+
+    }
+
+    .projects-container{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .skills-container{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+/* ========================================================= */
+/* TABLETS                                                    */
+/* Screen width: 768px or less                               */
+/* ========================================================= */
+
+@media (max-width:768px){
+
+    nav{
+
+        flex-direction:column;
+
+        gap:20px;
+
+    }
+
+    nav ul{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+    }
+
+    .hero-container{
+
+        flex-direction:column-reverse;
+
+        text-align:center;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+    }
+
+    .hero-tags{
+
+        justify-content:center;
+
+    }
+
+    .about-container{
+
+        flex-direction:column;
+
+    }
+
+    .projects-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .skills-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .footer-container{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+    }
+
+}
+
+/* ========================================================= */
+/* MOBILE PHONES                                              */
+/* Screen width: 600px or less                               */
+/* ========================================================= */
+
+@media (max-width:600px){
+
+    body{
+
+        font-size:16px;
+
+    }
+
+    header{
+
+        padding:20px;
+
+    }
+
+    nav ul{
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+    .hero-content h1{
+
+        font-size:2.2rem;
+
+    }
+
+    .hero-content h2{
+
+        font-size:1.3rem;
+
+    }
+
+    .hero-description{
+
+        font-size:1rem;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .hero-buttons a{
+
+        width:220px;
+
+        text-align:center;
+
+    }
+
+    .project-card img{
+
+        height:220px;
+
+    }
+
+    .contact-form{
+
+        width:100%;
+
+    }
+
+    .contact-form input,
+
+    .contact-form textarea{
+
+        width:100%;
+
+    }
+
+}
+
+/* ========================================================= */
+/* SMALL MOBILE DEVICES                                       */
+/* ========================================================= */
+
+@media (max-width:400px){
+
+    .hero-content h1{
+
+        font-size:1.8rem;
+
+    }
+
+    .hero-content h2{
+
+        font-size:1.1rem;
+
+    }
+
+    .logo{
+
+        font-size:1rem;
+
+        text-align:center;
+
+    }
+
+}
+
+
